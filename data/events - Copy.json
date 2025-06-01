@@ -1,0 +1,72 @@
+[
+  {
+    "description": "PICKAWAY (Circleville)",
+    "county": "PICKAWAY",
+    "city": "Circleville",
+    "independent": true,
+    "visited": false,
+    "start_date": "6/7/2025",
+    "end_date": "6/16/2025",
+    "chip": [
+      147,
+      33,
+      137
+    ]
+  },
+  {
+    "description": "PAULDING (Paulding)",
+    "county": "PAULDING",
+    "city": "Paulding",
+    "independent": false,
+    "visited": false,
+    "start_date": "6/14/2025",
+    "end_date": "6/21/2025",
+    "chip": [
+      112,
+      139,
+      231
+    ]
+  },
+  {
+    "description": "Perry (Somerset)",
+    "county": "Perry",
+    "city": "Somerset",
+    "independent": true,
+    "visited": true,
+    "start_date": "6/14/2025",
+    "end_date": "6/21/2025",
+    "chip": [
+      0,
+      0,
+      255
+    ]
+  },
+  {
+    "description": "TEST (Test)",
+    "county": "Test",
+    "city": "Test",
+    "independent": true,
+    "visited": true,
+    "start_date": "6/14/2025",
+    "end_date": "6/21/2025",
+    "chip": [
+      170,
+      0,
+      0
+    ]
+  },
+  {
+    "description": "TEST2 (test2)",
+    "county": "",
+    "city": "",
+    "independent": false,
+    "visited": false,
+    "start_date": "6/14/2025",
+    "end_date": "6/18/2025",
+    "chip": [
+      0,
+      85,
+      127
+    ]
+  }
+]
