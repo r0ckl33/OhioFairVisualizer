@@ -58,13 +58,6 @@ class MapView(QWidget):
         """Update map for selected date (datetime.date)."""
         for ev in events:
             print(f"- {ev.description} ({ev.start_date} to {ev.end_date})")
-        print("plot_map")
-        # self.plot_map()
-
-    def highlight_date(self, events):
-        """Update map for selected date (datetime.date)."""
-        for ev in events:
-            print(f"- {ev.description} ({ev.start_date} to {ev.end_date})")
         self.selected_events = events
         print("plot_map")
         self.plot_map()
