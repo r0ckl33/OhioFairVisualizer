@@ -11,12 +11,17 @@ from matplotlib.patches import PathPatch
 from matplotlib.colors import LinearSegmentedColormap
 from PyQt6.QtGui import QCursor
 import numpy as np
+import re
 from datetime import datetime
 
+# OHIO_COUNTY_SEATS = {
+#     "ADAMS": "WEST UNION", "ALLEN": "LIMA", "ASHLAND": "ASHLAND", "ASHTABULA": "JEFFERSON",
+#     # ... (rest of county seats as in previous code) ...
+#     "WYANDOT": "UPPER SANDUSKY"
+# }
+
 OHIO_COUNTY_SEATS = {
-    "ADAMS": "WEST UNION", "ALLEN": "LIMA", "ASHLAND": "ASHLAND", "ASHTABULA": "JEFFERSON",
-    # ... (rest of county seats as in previous code) ...
-    "WYANDOT": "UPPER SANDUSKY"
+    "FRANKLIN": "COLUMBUS"
 }
 
 class MapView(QWidget):
@@ -79,20 +84,6 @@ class MapView(QWidget):
             if county not in county_event_map:
                 county_event_map[county] = []
             county_event_map[county].append(tuple(e.chip))
-
-        # for e in self.events:
-        #     county = e.county.strip().upper()
-        #     # event_start = datetime.strptime(e.start_date, "%m/%d/%Y").date() if isinstance(e.start_date, str) else e.start_date
-        #     # event_end = datetime.strptime(e.end_date, "%m/%d/%Y").date() if isinstance(e.end_date, str) else e.end_date
-        #     # if selected_dt and (event_start <= selected_dt <= event_end):
-        #     #     if county not in county_event_map:
-        #     #         county_event_map[county] = []
-        #     #     county_event_map[county].append(tuple(e.chip))
-        #
-        #     if e.county == 'WOOD':
-        #         if county not in county_event_map:
-        #             county_event_map[county] = []
-        #         county_event_map[county].append(tuple(e.chip))
 
         for _, row in ohio_counties.iterrows():
             county_name = row["NAME"].upper()
@@ -176,10 +167,19 @@ class MapView(QWidget):
         city_name_map = {}
         for _, row in ohio_cities.iterrows():
             raw_name = row["NAME"].upper()
+
+            if "Saint Joseph".upper() in raw_name:
+                print(raw_name)
+            raw_name = re.sub(r" \(.*\)", "", raw_name)
+            raw_name = re.sub(r"MOUNT ", "MT. ", raw_name)
+            if "Saint Joseph".upper() in raw_name:
+                print(raw_name)
+
             for suffix in [" CITY", " VILLAGE", " TOWN", " ", " CORP", " CORPORATION"]:
                 if raw_name.endswith(suffix):
                     raw_name = raw_name[: -len(suffix)]
             city_name_map[raw_name] = row
+
         self.city_pin_artists = []
         self.city_pin_data = []
         for county, seat in OHIO_COUNTY_SEATS.items():
@@ -196,8 +196,19 @@ class MapView(QWidget):
             x, y = found_row["geometry"].centroid.xy
             is_capital = any(seat == city_key for seat in OHIO_COUNTY_SEATS.values())
             pin_color = "#28a745" if all(ev.visited for ev in evlist) else "#d32f2f"
-            marker = "*" if is_capital else "o"
-            size = 9 if is_capital else 5
+
+            # marker = "*" if is_capital else "o"
+            # size = 11 if is_capital else 6
+            # matplotlib markers = P: plus, D: diamond, p: pentagon
+            is_independent = any(ev.independent == True for ev in evlist)
+            marker = "*" if is_capital else ("P" if is_independent else "o")
+            size = 11 if is_capital else (7 if is_independent else 6)
+
+            is_visited = any(ev.visited == True for ev in evlist)
+            if is_visited:
+                marker = "X"
+                size = 7
+
             artist = self.ax.plot(x[0], y[0], marker=marker, color=pin_color, markersize=size,
                                   markeredgecolor="white", zorder=99)[0]  # <-- zorder high
             self.city_pin_artists.append(artist)

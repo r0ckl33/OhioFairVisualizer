@@ -30,7 +30,7 @@ class CalendarView(QWidget):
         self.current_year = self.today.year
         self.current_month = self.today.month
         self.selected_date = None
-        self.events = events  # <-- store reference
+        self.select_day_events = None
 
         self.init_ui()
         self.refresh()
@@ -77,12 +77,14 @@ class CalendarView(QWidget):
         self.refresh()
 
     def refresh(self):
+        calendar.setfirstweekday(calendar.SUNDAY)
         while self.grid.count():
             widget = self.grid.takeAt(0).widget()
             if widget:
                 widget.deleteLater()
         # Header row (Sun-Sat)
         days = list(calendar.day_abbr)
+        days = days[-1:] + days[:-1]
         for i, day in enumerate(days):
             label = QLabel(day)
             label.setAlignment(Qt.AlignmentFlag.AlignCenter)
@@ -121,19 +123,20 @@ class CalendarView(QWidget):
             start = parse_date(ev.start_date).date()
             end = parse_date(ev.end_date).date()
             cur = date.date()
-            start_cap = ""
-            end_cap = ""
-            if cur == start and cur == end:
-                start_cap = "\u25C0 "  # ◀
-                end_cap = " \u25B6"  # ▶
-            elif cur == start:
-                start_cap = "\u25C0 "       # ◀
-            elif cur == end:
-                end_cap = " \u25B6"         # ▶
-            ev_label = QLabel(f"{start_cap}{ev.description}{end_cap}")
+
+            ev_label = QLabel(ev.description)
             r, g, b = ev.chip
+            # ev_label.setStyleSheet(
+            #     f"background: rgb({r},{g},{b}); color: #fff; border-radius: 5px; padding:1px 2px; font-size:11px; ")
             ev_label.setStyleSheet(
-                f"background: rgb({r},{g},{b}); color: #fff; border-radius: 5px; padding:1px 2px; font-size:11px;")
+                f"background: rgb({r},{g},{b}); color: #fff; padding:1px 2px; font-size:11px; ")
+            if cur == start:
+                ev_label.setStyleSheet(ev_label.styleSheet() +
+                                       f"border-top-left-radius: 5px; border-bottom-left-radius: 5px; ")
+            elif cur == end:
+                ev_label.setStyleSheet(ev_label.styleSheet() +
+                                       f"border-top-right-radius: 5px; border-bottom-right-radius: 5px; ")
+
             ev_label.setToolTip(f"{ev.description}\n{ev.start_date} – {ev.end_date}")
             ev_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
             cell_layout.addWidget(ev_label)
@@ -175,4 +178,10 @@ class CalendarView(QWidget):
 
         # for ev in matches:
         #     print(f"- {ev.description} ({ev.start_date} to {ev.end_date})")
+
+        # de-select events if user selected the same day
+        if matches == self.select_day_events:
+            matches = []
+
+        self.select_day_events = matches
         self.day_clicked .emit(matches)

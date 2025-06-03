@@ -7,7 +7,11 @@
     "visited": false,
     "start_date": "6/7/2025",
     "end_date": "6/14/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "PICKAWAY (Circleville)",
@@ -17,7 +21,11 @@
     "visited": false,
     "start_date": "6/14/2025",
     "end_date": "6/21/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "HARRISON (Cadiz)",
@@ -27,7 +35,11 @@
     "visited": false,
     "start_date": "6/23/2025",
     "end_date": "6/28/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "PUTNAM (Ottawa)",
@@ -37,17 +49,25 @@
     "visited": false,
     "start_date": "6/23/2025",
     "end_date": "6/28/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "HAMILTON (Carthage)",
     "county": "HAMILTON",
-    "city": "Carthage",
+    "city": "Cincinnati",
     "independent": false,
     "visited": false,
     "start_date": "6/26/2025",
     "end_date": "6/29/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "MARION (Marion)",
@@ -57,7 +77,11 @@
     "visited": false,
     "start_date": "6/30/2025",
     "end_date": "7/5/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "CLINTON (Wilmington)",
@@ -67,7 +91,11 @@
     "visited": false,
     "start_date": "7/5/2025",
     "end_date": "7/12/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "MADISON (London)",
@@ -77,7 +105,11 @@
     "visited": false,
     "start_date": "7/5/2025",
     "end_date": "7/12/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "ADAMS (West Union)",
@@ -87,7 +119,11 @@
     "visited": false,
     "start_date": "7/6/2025",
     "end_date": "7/12/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "LOGAN (Bellefontaine)",
@@ -97,7 +133,11 @@
     "visited": false,
     "start_date": "7/6/2025",
     "end_date": "7/12/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "MONTGOMERY (Dayton)",
@@ -107,7 +147,11 @@
     "visited": false,
     "start_date": "7/6/2025",
     "end_date": "7/12/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "LAWRENCE (Proctorville)",
@@ -117,7 +161,11 @@
     "visited": false,
     "start_date": "7/7/2025",
     "end_date": "7/12/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "LUCAS (Maumee)",
@@ -127,7 +175,11 @@
     "visited": false,
     "start_date": "7/7/2025",
     "end_date": "7/13/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "TRUMBULL (Cortland)",
@@ -137,7 +189,11 @@
     "visited": false,
     "start_date": "7/8/2025",
     "end_date": "7/13/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "JACKSON (Wellston)",
@@ -147,7 +203,11 @@
     "visited": false,
     "start_date": "7/11/2025",
     "end_date": "7/19/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "OTTAWA (Oak Harbor)",
@@ -157,7 +217,11 @@
     "visited": false,
     "start_date": "7/13/2025",
     "end_date": "7/20/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "CRAWFORD (Bucyrus)",
@@ -167,17 +231,25 @@
     "visited": false,
     "start_date": "7/14/2025",
     "end_date": "7/19/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
-    "description": "FAYETTE (Wash. C.H.)",
+    "description": "FAYETTE (Washington Court House)",
     "county": "FAYETTE",
-    "city": "Wash. C.H.",
+    "city": "Washington Court House",
     "independent": false,
     "visited": false,
     "start_date": "7/14/2025",
     "end_date": "7/19/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "FRANKLIN (Hilliard)",
@@ -187,7 +259,11 @@
     "visited": false,
     "start_date": "7/14/2025",
     "end_date": "7/19/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "PERRY (New Lexington)",
@@ -197,7 +273,11 @@
     "visited": false,
     "start_date": "7/14/2025",
     "end_date": "7/19/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "WARREN (Lebanon)",
@@ -207,7 +287,11 @@
     "visited": false,
     "start_date": "7/14/2025",
     "end_date": "7/20/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "CARROLL (Carrollton)",
@@ -217,7 +301,11 @@
     "visited": false,
     "start_date": "7/15/2025",
     "end_date": "7/20/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "CLARK (Springfield)",
@@ -227,7 +315,11 @@
     "visited": false,
     "start_date": "7/18/2025",
     "end_date": "7/25/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "KNOX (Mt. Vernon)",
@@ -237,7 +329,11 @@
     "visited": false,
     "start_date": "7/19/2025",
     "end_date": "7/26/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "BUTLER (Hamilton)",
@@ -247,7 +343,11 @@
     "visited": false,
     "start_date": "7/20/2025",
     "end_date": "7/26/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "CLERMONT (Owensville)",
@@ -257,7 +357,11 @@
     "visited": false,
     "start_date": "7/20/2025",
     "end_date": "7/26/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "SENECA (Tiffin)",
@@ -267,7 +371,11 @@
     "visited": false,
     "start_date": "7/20/2025",
     "end_date": "7/26/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "SHELBY (Sidney)",
@@ -277,7 +385,11 @@
     "visited": false,
     "start_date": "7/20/2025",
     "end_date": "7/26/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "UNION (Marysville)",
@@ -287,7 +399,11 @@
     "visited": false,
     "start_date": "7/20/2025",
     "end_date": "7/27/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "VINTON (McArthur)",
@@ -297,7 +413,11 @@
     "visited": false,
     "start_date": "7/21/2025",
     "end_date": "7/26/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "LAKE (Painesville)",
@@ -307,7 +427,11 @@
     "visited": false,
     "start_date": "7/22/2025",
     "end_date": "7/27/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "SUMMIT (Tallmadge)",
@@ -317,17 +441,25 @@
     "visited": false,
     "start_date": "7/22/2025",
     "end_date": "7/27/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "OHIO STATE (Columbus)",
-    "county": "OHIO STATE",
+    "county": "FRANKLIN",
     "city": "Columbus",
     "independent": false,
     "visited": false,
     "start_date": "7/23/2025",
     "end_date": "8/3/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "PIKE (Piketon)",
@@ -337,7 +469,11 @@
     "visited": false,
     "start_date": "7/25/2025",
     "end_date": "8/2/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "PREBLE (Eaton)",
@@ -347,7 +483,11 @@
     "visited": false,
     "start_date": "7/26/2025",
     "end_date": "8/2/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "AUGLAIZE (Wapakoneta)",
@@ -357,7 +497,11 @@
     "visited": false,
     "start_date": "7/27/2025",
     "end_date": "8/2/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "GREENE (Xenia)",
@@ -367,7 +511,11 @@
     "visited": false,
     "start_date": "7/27/2025",
     "end_date": "8/2/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "WOOD (Bowling Green)",
@@ -377,7 +525,11 @@
     "visited": false,
     "start_date": "7/27/2025",
     "end_date": "8/3/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "COLUMBIANA (Lisbon)",
@@ -387,7 +539,11 @@
     "visited": false,
     "start_date": "7/28/2025",
     "end_date": "8/2/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "GALLIA (Gallipolis)",
@@ -397,7 +553,11 @@
     "visited": false,
     "start_date": "7/28/2025",
     "end_date": "8/3/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "MEDINA (Medina)",
@@ -407,7 +567,11 @@
     "visited": false,
     "start_date": "7/28/2025",
     "end_date": "8/3/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "ATHENS (Athens)",
@@ -417,7 +581,11 @@
     "visited": false,
     "start_date": "8/1/2025",
     "end_date": "8/8/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "CHAMPAIGN (Urbana)",
@@ -427,7 +595,11 @@
     "visited": false,
     "start_date": "8/1/2025",
     "end_date": "8/9/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "ROSS (Chillicothe)",
@@ -437,7 +609,11 @@
     "visited": false,
     "start_date": "8/2/2025",
     "end_date": "8/9/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "HARTFORD (Licking Co.)*",
@@ -447,7 +623,11 @@
     "visited": false,
     "start_date": "8/3/2025",
     "end_date": "8/9/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "RICHLAND (Mansfield)",
@@ -457,7 +637,11 @@
     "visited": false,
     "start_date": "8/3/2025",
     "end_date": "8/9/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "ERIE (Sandusky)",
@@ -467,7 +651,11 @@
     "visited": false,
     "start_date": "8/4/2025",
     "end_date": "8/8/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "HOLMES (Millersburg)",
@@ -477,7 +665,11 @@
     "visited": false,
     "start_date": "8/4/2025",
     "end_date": "8/9/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "SCIOTO (Lucasville)",
@@ -487,7 +679,11 @@
     "visited": false,
     "start_date": "8/4/2025",
     "end_date": "8/10/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "ASHTABULA (Jefferson)",
@@ -497,17 +693,25 @@
     "visited": false,
     "start_date": "8/5/2025",
     "end_date": "8/9/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "ATTICA (Seneca Co.)*",
-    "county": "ATTICA",
-    "city": "Seneca Co.",
+    "county": "Seneca",
+    "city": "Tiffin",
     "independent": true,
     "visited": false,
     "start_date": "8/5/2025",
     "end_date": "8/10/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "CUYAHOGA (Berea)",
@@ -517,7 +721,11 @@
     "visited": false,
     "start_date": "8/5/2025",
     "end_date": "8/10/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "HENRY (Napoleon)",
@@ -527,7 +735,11 @@
     "visited": false,
     "start_date": "8/7/2025",
     "end_date": "8/13/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "MERCER (Celina)",
@@ -537,7 +749,11 @@
     "visited": false,
     "start_date": "8/7/2025",
     "end_date": "8/14/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "MIAMI (Troy)",
@@ -547,7 +763,11 @@
     "visited": false,
     "start_date": "8/8/2025",
     "end_date": "8/14/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "MUSKINGUM (Zanesville)",
@@ -557,7 +777,11 @@
     "visited": false,
     "start_date": "8/10/2025",
     "end_date": "8/16/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "HURON (Norwalk)",
@@ -567,17 +791,25 @@
     "visited": false,
     "start_date": "8/11/2025",
     "end_date": "8/16/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "JEFFERSON (Smithfield)",
     "county": "JEFFERSON",
-    "city": "Smithfield",
+    "city": "Steubenville",
     "independent": false,
     "visited": false,
     "start_date": "8/11/2025",
     "end_date": "8/16/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "MEIGS (Pomeroy)",
@@ -587,7 +819,11 @@
     "visited": false,
     "start_date": "8/11/2025",
     "end_date": "8/17/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "ALLEN (Lima)",
@@ -597,7 +833,11 @@
     "visited": false,
     "start_date": "8/15/2025",
     "end_date": "8/23/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "DARKE (Greenville)",
@@ -607,7 +847,11 @@
     "visited": false,
     "start_date": "8/15/2025",
     "end_date": "8/23/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "DEFIANCE (Hicksville)",
@@ -617,7 +861,11 @@
     "visited": false,
     "start_date": "8/16/2025",
     "end_date": "8/23/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "LORAIN (Wellington)",
@@ -627,7 +875,11 @@
     "visited": false,
     "start_date": "8/17/2025",
     "end_date": "8/24/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "MONROE (Woodsfield)",
@@ -637,7 +889,11 @@
     "visited": false,
     "start_date": "8/18/2025",
     "end_date": "8/23/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "SANDUSKY (Fremont)",
@@ -647,7 +903,11 @@
     "visited": false,
     "start_date": "8/18/2025",
     "end_date": "8/24/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "PORTAGE (Randolph)",
@@ -657,7 +917,11 @@
     "visited": false,
     "start_date": "8/19/2025",
     "end_date": "8/24/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "MORROW (Mt. Gilead)",
@@ -667,7 +931,11 @@
     "visited": false,
     "start_date": "8/25/2025",
     "end_date": "8/30/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "NOBLE (Caldwell)",
@@ -677,7 +945,11 @@
     "visited": false,
     "start_date": "8/25/2025",
     "end_date": "9/1/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "HANCOCK (Findlay)",
@@ -687,17 +959,25 @@
     "visited": false,
     "start_date": "8/26/2025",
     "end_date": "9/1/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "RICHWOOD (Union Co.)*",
     "county": "RICHWOOD",
-    "city": "Union Co.",
+    "city": "Richwood",
     "independent": true,
     "visited": false,
     "start_date": "8/26/2025",
     "end_date": "9/1/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "STARK (Canton)",
@@ -707,7 +987,11 @@
     "visited": false,
     "start_date": "8/26/2025",
     "end_date": "9/1/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "VAN WERT (Van Wert)",
@@ -717,7 +1001,11 @@
     "visited": false,
     "start_date": "8/26/2025",
     "end_date": "9/1/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "MAHONING (Canfield)",
@@ -727,7 +1015,11 @@
     "visited": false,
     "start_date": "8/27/2025",
     "end_date": "9/1/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "GEAUGA (Burton)",
@@ -737,7 +1029,11 @@
     "visited": false,
     "start_date": "8/28/2025",
     "end_date": "9/1/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "FULTON (Wauseon)",
@@ -747,7 +1043,11 @@
     "visited": false,
     "start_date": "8/29/2025",
     "end_date": "9/4/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "WASHINGTON (Marietta)",
@@ -757,7 +1057,11 @@
     "visited": false,
     "start_date": "8/30/2025",
     "end_date": "9/2/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "HIGHLAND (Hillsboro)",
@@ -767,7 +1071,11 @@
     "visited": false,
     "start_date": "8/31/2025",
     "end_date": "9/6/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "BELMONT (St. Clairsville)",
@@ -777,7 +1085,11 @@
     "visited": false,
     "start_date": "9/1/2025",
     "end_date": "9/7/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "HARDIN (Kenton)",
@@ -787,7 +1099,11 @@
     "visited": false,
     "start_date": "9/2/2025",
     "end_date": "9/6/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "MORGAN (McConnelsville)",
@@ -797,7 +1113,11 @@
     "visited": false,
     "start_date": "9/2/2025",
     "end_date": "9/7/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "WAYNE (Wooster)",
@@ -807,7 +1127,11 @@
     "visited": false,
     "start_date": "9/6/2025",
     "end_date": "9/11/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "WILLIAMS (Montpelier)",
@@ -817,17 +1141,25 @@
     "visited": false,
     "start_date": "9/6/2025",
     "end_date": "9/13/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
-    "description": "GUERNSEY (Old Wash.)",
+    "description": "GUERNSEY (Old Washington)",
     "county": "GUERNSEY",
-    "city": "Old Wash.",
+    "city": "Old Washington",
     "independent": false,
     "visited": false,
     "start_date": "9/8/2025",
     "end_date": "9/13/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "HOCKING (Logan)",
@@ -837,27 +1169,39 @@
     "visited": false,
     "start_date": "9/8/2025",
     "end_date": "9/13/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
-    "description": "WYANDOT (Up. Sandusky)",
+    "description": "WYANDOT (Upper Sandusky)",
     "county": "WYANDOT",
-    "city": "Up. Sandusky",
+    "city": "Upper Sandusky",
     "independent": false,
     "visited": false,
     "start_date": "9/8/2025",
     "end_date": "9/14/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "BELLVILLE (Richland Co.)*",
     "county": "BELLVILLE",
-    "city": "Richland Co.",
+    "city": "Bellville",
     "independent": true,
     "visited": false,
     "start_date": "9/10/2025",
     "end_date": "9/13/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "DELAWARE (Delaware)",
@@ -867,7 +1211,11 @@
     "visited": false,
     "start_date": "9/13/2025",
     "end_date": "9/20/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   },
   {
     "description": "ASHLAND (Ashland)",
@@ -877,7 +1225,11 @@
     "visited": false,
     "start_date": "9/14/2025",
     "end_date": "9/20/2025",
-    "chip": [158, 157, 36]
+    "chip": [
+      158,
+      157,
+      36
+    ]
   },
   {
     "description": "TUSCARAWAS (Dover)",
@@ -887,17 +1239,25 @@
     "visited": false,
     "start_date": "9/15/2025",
     "end_date": "9/21/2025",
-    "chip": [26, 115, 232]
+    "chip": [
+      26,
+      115,
+      232
+    ]
   },
   {
     "description": "ALBANY (Athens Co.)*",
-    "county": "ALBANY",
-    "city": "Athens Co.",
+    "county": "ATHENS",
+    "city": "Albany",
     "independent": true,
     "visited": false,
     "start_date": "9/17/2025",
     "end_date": "9/21/2025",
-    "chip": [219, 68, 55]
+    "chip": [
+      219,
+      68,
+      55
+    ]
   },
   {
     "description": "BROWN (Georgetown)",
@@ -907,17 +1267,25 @@
     "visited": false,
     "start_date": "9/22/2025",
     "end_date": "9/27/2025",
-    "chip": [244, 180, 0]
+    "chip": [
+      244,
+      180,
+      0
+    ]
   },
   {
     "description": "BARLOW (Washington Co.)*",
-    "county": "BARLOW",
-    "city": "Washington Co.",
+    "county": "WASHINGTON",
+    "city": "Barlow",
     "independent": true,
     "visited": false,
     "start_date": "9/24/2025",
     "end_date": "9/28/2025",
-    "chip": [15, 157, 88]
+    "chip": [
+      15,
+      157,
+      88
+    ]
   },
   {
     "description": "COSHOCTON (Coshocton)",
@@ -927,17 +1295,25 @@
     "visited": false,
     "start_date": "9/26/2025",
     "end_date": "10/2/2025",
-    "chip": [171, 71, 188]
+    "chip": [
+      171,
+      71,
+      188
+    ]
   },
   {
     "description": "LOUDONVILLE (Ashland Co.)*",
-    "county": "LOUDONVILLE",
-    "city": "Ashland Co.",
+    "county": "ASHLAND",
+    "city": "Loudonville",
     "independent": true,
     "visited": false,
     "start_date": "9/30/2025",
     "end_date": "10/4/2025",
-    "chip": [0, 172, 193]
+    "chip": [
+      0,
+      172,
+      193
+    ]
   },
   {
     "description": "FAIRFIELD (Lancaster)",
@@ -947,6 +1323,10 @@
     "visited": false,
     "start_date": "10/5/2025",
     "end_date": "10/11/2025",
-    "chip": [255, 112, 67]
+    "chip": [
+      255,
+      112,
+      67
+    ]
   }
 ]
