@@ -159,15 +159,10 @@ class MapView(QWidget):
             event_cities[e.city.strip().upper()].append(e)
         city_name_map = {}
         for _, row in ohio_cities.iterrows():
+            # format raw city name
             raw_name = row["NAME"].upper()
-
-            if "Saint Joseph".upper() in raw_name:
-                print(raw_name)
             raw_name = re.sub(r" \(.*\)", "", raw_name)
             raw_name = re.sub(r"MOUNT ", "MT. ", raw_name)
-            if "Saint Joseph".upper() in raw_name:
-                print(raw_name)
-
             for suffix in [" CITY", " VILLAGE", " TOWN", " ", " CORP", " CORPORATION"]:
                 if raw_name.endswith(suffix):
                     raw_name = raw_name[: -len(suffix)]
