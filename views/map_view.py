@@ -76,12 +76,12 @@ class MapView(QWidget):
             county = e.county.strip().upper()
             if county not in county_event_map:
                 county_event_map[county] = []
-            county_event_map[county].append(tuple(e.chip))
+            county_event_map[county].append(e.chip)
 
         for _, row in ohio_counties.iterrows():
             county_name = row["NAME"].upper()
             geom = row["geometry"]
-            chips = county_event_map.get(county_name, None)
+            chip = county_event_map.get(county_name, None)
             polygons = []
             if geom.geom_type == "Polygon":
                 polygons = [geom]
@@ -90,47 +90,19 @@ class MapView(QWidget):
             else:
                 continue
             for poly in polygons:
-                if chips:
-                    if len(chips) == 1:
-                        color = np.array(chips[0]) / 255.0
-                        exterior_coords = np.array(poly.exterior.coords)
-                        path = Path(exterior_coords)
-                        patch = PathPatch(path, facecolor=color, edgecolor="black", linewidth=0.8, zorder=1)
-                        self.ax.add_patch(patch)
-                        for interior in poly.interiors:
-                            interior_coords = np.array(interior.coords)
-                            interior_path = Path(interior_coords)
-                            interior_patch = PathPatch(
-                                interior_path,
-                                facecolor="white", edgecolor="black", linewidth=0.8, zorder=1)
-                            self.ax.add_patch(interior_patch)
-                    else:
-                        try:
-                            n = len(chips)
-                            colors = [np.array(c)/255.0 for c in chips]
-                            cm = LinearSegmentedColormap.from_list("countygrad", colors)
-                            xs, ys = poly.exterior.xy
-                            xmin, xmax = min(xs), max(xs)
-                            ymin, ymax = min(ys), max(ys)
-                            y_grid = np.linspace(ymin, ymax, 100)
-                            for j in range(len(y_grid)-1):
-                                y0, y1 = y_grid[j], y_grid[j+1]
-                                color = cm(j / (len(y_grid)-1))
-                                box = gpd.GeoSeries.box(xmin, y0, xmax, y1)
-                                inter = poly.intersection(box[0])
-                                if not inter.is_empty and inter.geom_type == "Polygon":
-                                    ex_coords = np.array(inter.exterior.coords)
-                                    path = Path(ex_coords)
-                                    patch = PathPatch(path, facecolor=color, edgecolor="none", linewidth=0, zorder=1)
-                                    self.ax.add_patch(patch)
-                            exterior_coords = np.array(poly.exterior.coords)
-                            self.ax.plot(exterior_coords[:, 0], exterior_coords[:, 1], color="black", linewidth=0.8, zorder=2)
-                        except Exception as ex:
-                            avg_color = tuple(np.mean(colors, axis=0))
-                            exterior_coords = np.array(poly.exterior.coords)
-                            path = Path(exterior_coords)
-                            patch = PathPatch(path, facecolor=avg_color, edgecolor="black", linewidth=0.8, zorder=1)
-                            self.ax.add_patch(patch)
+                if chip:
+                    color = np.array(chip) / 255.0
+                    exterior_coords = np.array(poly.exterior.coords)
+                    path = Path(exterior_coords)
+                    patch = PathPatch(path, facecolor=color, edgecolor="black", linewidth=0.8, zorder=1)
+                    self.ax.add_patch(patch)
+                    for interior in poly.interiors:
+                        interior_coords = np.array(interior.coords)
+                        interior_path = Path(interior_coords)
+                        interior_patch = PathPatch(
+                            interior_path,
+                            facecolor="white", edgecolor="black", linewidth=0.8, zorder=1)
+                        self.ax.add_patch(interior_patch)
                 else:
                     exterior_coords = np.array(poly.exterior.coords)
                     path = Path(exterior_coords)
@@ -200,7 +172,7 @@ class MapView(QWidget):
             artist = self.ax.plot(x[0], y[0], marker=marker, color=pin_color, markersize=size,
                                   markeredgecolor="white", zorder=99)[0]  # <-- zorder high
             self.city_pin_artists.append(artist)
-            # City label right of pin
+            # City label right of pin | + 0.0275
             self.ax.text(
                 x[0]+7000, y[0], city.title(), fontsize=7, ha="left", va="center", color="#222",
                 bbox=dict(boxstyle="round,pad=0.1", fc="white", ec="none", alpha=0.5), zorder=100
