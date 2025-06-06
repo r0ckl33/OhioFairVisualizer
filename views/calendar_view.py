@@ -89,6 +89,14 @@ class CalendarView(QWidget):
             label = QLabel(day)
             label.setAlignment(Qt.AlignmentFlag.AlignCenter)
             self.grid.addWidget(label, 0, i)
+            # Set the grid layout's row stretch to 0 to prevent extra space
+            self.grid.setRowStretch(0, 0)
+            # Set size policy to ensure the label doesn't expand unnecessarily
+            label.setSizePolicy(
+                QSizePolicy.Policy.Preferred,  # Horizontal policy
+                QSizePolicy.Policy.Fixed  # Vertical policy - fixed height
+            )
+
         self.grid.setVerticalSpacing(2)  # Reduce space between header and top row
         year, month = self.current_date.year, self.current_date.month
         self.month_label.setText(self.current_date.strftime("%B %Y"))
@@ -109,6 +117,7 @@ class CalendarView(QWidget):
         cell_layout = QVBoxLayout(cell)
         cell_layout.setContentsMargins(2, 2, 2, 2)
         cell_layout.setAlignment(Qt.AlignmentFlag.AlignTop)
+        # cell.setStyleSheet(f"background: rgb(111,11,211); ")
         # day_label = QLabel(str(date.day))
         day_label = ClickableDayLabel(date)
         day_label.clicked.connect(self.on_day_cell_clicked)
@@ -133,7 +142,7 @@ class CalendarView(QWidget):
             if cur == start:
                 ev_label.setStyleSheet(ev_label.styleSheet() +
                                        f"border-top-left-radius: 5px; border-bottom-left-radius: 5px; ")
-            elif cur == end:
+            if cur == end:
                 ev_label.setStyleSheet(ev_label.styleSheet() +
                                        f"border-top-right-radius: 5px; border-bottom-right-radius: 5px; ")
 
@@ -184,4 +193,5 @@ class CalendarView(QWidget):
             matches = []
 
         self.select_day_events = matches
-        self.day_clicked .emit(matches)
+        self.day_clicked.emit(matches)
+        self.refresh()
