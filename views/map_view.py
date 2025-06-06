@@ -129,6 +129,7 @@ class MapView(QWidget):
         event_cities = {e.city.strip().upper(): [] for e in self.events}
         for e in self.events:
             event_cities[e.city.strip().upper()].append(e)
+
         city_name_map = {}
         for _, row in ohio_cities.iterrows():
             # format raw city name
@@ -146,12 +147,18 @@ class MapView(QWidget):
             OHIO_COUNTY_SEATS[county] = seat.upper()
         for city, evlist in event_cities.items():
             city_key = city
+            # Updating BARLOW and RANDOLPH for now to make pins visible
+            if city_key == "BARLOW":
+                city_key = "VINCENT"
+            if city_key == "RANDOLPH":
+                city_key = "RAVENNA"
             found_row = None
             for cand in [city_key, city_key.replace(" CITY", ""), city_key.replace(" VILLAGE", "")]:
                 if cand in city_name_map:
                     found_row = city_name_map[cand]
                     break
             if found_row is None:
+                print(f"Warning - city not found: {city_key}")
                 continue
             x, y = found_row["geometry"].centroid.xy
             is_capital = any(seat == city_key for seat in OHIO_COUNTY_SEATS.values())

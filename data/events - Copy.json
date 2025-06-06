@@ -1,72 +1,1332 @@
 [
   {
-    "description": "PICKAWAY (Circleville)",
-    "county": "PICKAWAY",
-    "city": "Circleville",
-    "independent": true,
-    "visited": false,
-    "start_date": "6/7/2025",
-    "end_date": "6/16/2025",
-    "chip": [
-      147,
-      33,
-      137
-    ]
-  },
-  {
     "description": "PAULDING (Paulding)",
     "county": "PAULDING",
     "city": "Paulding",
     "independent": false,
     "visited": false,
-    "start_date": "6/14/2025",
-    "end_date": "6/21/2025",
+    "start_date": "6/7/2025",
+    "end_date": "6/14/2025",
     "chip": [
-      112,
-      139,
-      231
+      26,
+      115,
+      232
     ]
   },
   {
-    "description": "Perry (Somerset)",
-    "county": "Perry",
-    "city": "Somerset",
-    "independent": true,
-    "visited": true,
+    "description": "PICKAWAY (Circleville)",
+    "county": "PICKAWAY",
+    "city": "Circleville",
+    "independent": false,
+    "visited": false,
     "start_date": "6/14/2025",
     "end_date": "6/21/2025",
     "chip": [
-      0,
-      0,
-      255
+      219,
+      68,
+      55
     ]
   },
   {
-    "description": "TEST (Test)",
-    "county": "Test",
-    "city": "Test",
-    "independent": true,
-    "visited": true,
-    "start_date": "6/14/2025",
-    "end_date": "6/21/2025",
+    "description": "HARRISON (Cadiz)",
+    "county": "HARRISON",
+    "city": "Cadiz",
+    "independent": false,
+    "visited": false,
+    "start_date": "6/23/2025",
+    "end_date": "6/28/2025",
     "chip": [
-      170,
-      0,
+      244,
+      180,
       0
     ]
   },
   {
-    "description": "TEST2 (test2)",
-    "county": "",
-    "city": "",
+    "description": "PUTNAM (Ottawa)",
+    "county": "PUTNAM",
+    "city": "Ottawa",
     "independent": false,
     "visited": false,
-    "start_date": "6/14/2025",
-    "end_date": "6/18/2025",
+    "start_date": "6/23/2025",
+    "end_date": "6/28/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "HAMILTON (Carthage)",
+    "county": "HAMILTON",
+    "city": "Cincinnati",
+    "independent": false,
+    "visited": false,
+    "start_date": "6/26/2025",
+    "end_date": "6/29/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "MARION (Marion)",
+    "county": "MARION",
+    "city": "Marion",
+    "independent": false,
+    "visited": false,
+    "start_date": "6/30/2025",
+    "end_date": "7/5/2025",
     "chip": [
       0,
-      85,
-      127
+      172,
+      193
+    ]
+  },
+  {
+    "description": "CLINTON (Wilmington)",
+    "county": "CLINTON",
+    "city": "Wilmington",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/5/2025",
+    "end_date": "7/12/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "MADISON (London)",
+    "county": "MADISON",
+    "city": "London",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/5/2025",
+    "end_date": "7/12/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "ADAMS (West Union)",
+    "county": "ADAMS",
+    "city": "West Union",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/6/2025",
+    "end_date": "7/12/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "LOGAN (Bellefontaine)",
+    "county": "LOGAN",
+    "city": "Bellefontaine",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/6/2025",
+    "end_date": "7/12/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "MONTGOMERY (Dayton)",
+    "county": "MONTGOMERY",
+    "city": "Dayton",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/6/2025",
+    "end_date": "7/12/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "LAWRENCE (Proctorville)",
+    "county": "LAWRENCE",
+    "city": "Proctorville",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/7/2025",
+    "end_date": "7/12/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "LUCAS (Maumee)",
+    "county": "LUCAS",
+    "city": "Maumee",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/7/2025",
+    "end_date": "7/13/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "TRUMBULL (Cortland)",
+    "county": "TRUMBULL",
+    "city": "Cortland",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/8/2025",
+    "end_date": "7/13/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "JACKSON (Wellston)",
+    "county": "JACKSON",
+    "city": "Wellston",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/11/2025",
+    "end_date": "7/19/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "OTTAWA (Oak Harbor)",
+    "county": "OTTAWA",
+    "city": "Oak Harbor",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/13/2025",
+    "end_date": "7/20/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "CRAWFORD (Bucyrus)",
+    "county": "CRAWFORD",
+    "city": "Bucyrus",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/14/2025",
+    "end_date": "7/19/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "FAYETTE (Washington Court House)",
+    "county": "FAYETTE",
+    "city": "Washington Court House",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/14/2025",
+    "end_date": "7/19/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "FRANKLIN (Hilliard)",
+    "county": "FRANKLIN",
+    "city": "Hilliard",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/14/2025",
+    "end_date": "7/19/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "PERRY (New Lexington)",
+    "county": "PERRY",
+    "city": "New Lexington",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/14/2025",
+    "end_date": "7/19/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "WARREN (Lebanon)",
+    "county": "WARREN",
+    "city": "Lebanon",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/14/2025",
+    "end_date": "7/20/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "CARROLL (Carrollton)",
+    "county": "CARROLL",
+    "city": "Carrollton",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/15/2025",
+    "end_date": "7/20/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "CLARK (Springfield)",
+    "county": "CLARK",
+    "city": "Springfield",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/18/2025",
+    "end_date": "7/25/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "KNOX (Mt. Vernon)",
+    "county": "KNOX",
+    "city": "Mt. Vernon",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/19/2025",
+    "end_date": "7/26/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "BUTLER (Hamilton)",
+    "county": "BUTLER",
+    "city": "Hamilton",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/20/2025",
+    "end_date": "7/26/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "CLERMONT (Owensville)",
+    "county": "CLERMONT",
+    "city": "Owensville",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/20/2025",
+    "end_date": "7/26/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "SENECA (Tiffin)",
+    "county": "SENECA",
+    "city": "Tiffin",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/20/2025",
+    "end_date": "7/26/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "SHELBY (Sidney)",
+    "county": "SHELBY",
+    "city": "Sidney",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/20/2025",
+    "end_date": "7/26/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "UNION (Marysville)",
+    "county": "UNION",
+    "city": "Marysville",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/20/2025",
+    "end_date": "7/27/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "VINTON (McArthur)",
+    "county": "VINTON",
+    "city": "McArthur",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/21/2025",
+    "end_date": "7/26/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "LAKE (Painesville)",
+    "county": "LAKE",
+    "city": "Painesville",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/22/2025",
+    "end_date": "7/27/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "SUMMIT (Tallmadge)",
+    "county": "SUMMIT",
+    "city": "Tallmadge",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/22/2025",
+    "end_date": "7/27/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "OHIO STATE (Columbus)",
+    "county": "FRANKLIN",
+    "city": "Columbus",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/23/2025",
+    "end_date": "8/3/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "PIKE (Piketon)",
+    "county": "PIKE",
+    "city": "Piketon",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/25/2025",
+    "end_date": "8/2/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "PREBLE (Eaton)",
+    "county": "PREBLE",
+    "city": "Eaton",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/26/2025",
+    "end_date": "8/2/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "AUGLAIZE (Wapakoneta)",
+    "county": "AUGLAIZE",
+    "city": "Wapakoneta",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/27/2025",
+    "end_date": "8/2/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "GREENE (Xenia)",
+    "county": "GREENE",
+    "city": "Xenia",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/27/2025",
+    "end_date": "8/2/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "WOOD (Bowling Green)",
+    "county": "WOOD",
+    "city": "Bowling Green",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/27/2025",
+    "end_date": "8/3/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "COLUMBIANA (Lisbon)",
+    "county": "COLUMBIANA",
+    "city": "Lisbon",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/28/2025",
+    "end_date": "8/2/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "GALLIA (Gallipolis)",
+    "county": "GALLIA",
+    "city": "Gallipolis",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/28/2025",
+    "end_date": "8/3/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "MEDINA (Medina)",
+    "county": "MEDINA",
+    "city": "Medina",
+    "independent": false,
+    "visited": false,
+    "start_date": "7/28/2025",
+    "end_date": "8/3/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "ATHENS (Athens)",
+    "county": "ATHENS",
+    "city": "Athens",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/1/2025",
+    "end_date": "8/8/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "CHAMPAIGN (Urbana)",
+    "county": "CHAMPAIGN",
+    "city": "Urbana",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/1/2025",
+    "end_date": "8/9/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "ROSS (Chillicothe)",
+    "county": "ROSS",
+    "city": "Chillicothe",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/2/2025",
+    "end_date": "8/9/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "HARTFORD (Licking Co.)*",
+    "county": "LICKING",
+    "city": "Hartford",
+    "independent": true,
+    "visited": false,
+    "start_date": "8/3/2025",
+    "end_date": "8/9/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "RICHLAND (Mansfield)",
+    "county": "RICHLAND",
+    "city": "Mansfield",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/3/2025",
+    "end_date": "8/9/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "ERIE (Sandusky)",
+    "county": "ERIE",
+    "city": "Sandusky",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/4/2025",
+    "end_date": "8/8/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "HOLMES (Millersburg)",
+    "county": "HOLMES",
+    "city": "Millersburg",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/4/2025",
+    "end_date": "8/9/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "SCIOTO (Lucasville)",
+    "county": "SCIOTO",
+    "city": "Lucasville",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/4/2025",
+    "end_date": "8/10/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "ASHTABULA (Jefferson)",
+    "county": "ASHTABULA",
+    "city": "Jefferson",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/5/2025",
+    "end_date": "8/9/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "ATTICA (Seneca Co.)*",
+    "county": "SENECA",
+    "city": "Tiffin",
+    "independent": true,
+    "visited": false,
+    "start_date": "8/5/2025",
+    "end_date": "8/10/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "CUYAHOGA (Berea)",
+    "county": "CUYAHOGA",
+    "city": "Berea",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/5/2025",
+    "end_date": "8/10/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "HENRY (Napoleon)",
+    "county": "HENRY",
+    "city": "Napoleon",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/7/2025",
+    "end_date": "8/13/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "MERCER (Celina)",
+    "county": "MERCER",
+    "city": "Celina",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/7/2025",
+    "end_date": "8/14/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "MIAMI (Troy)",
+    "county": "MIAMI",
+    "city": "Troy",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/8/2025",
+    "end_date": "8/14/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "MUSKINGUM (Zanesville)",
+    "county": "MUSKINGUM",
+    "city": "Zanesville",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/10/2025",
+    "end_date": "8/16/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "HURON (Norwalk)",
+    "county": "HURON",
+    "city": "Norwalk",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/11/2025",
+    "end_date": "8/16/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "JEFFERSON (Smithfield)",
+    "county": "JEFFERSON",
+    "city": "Steubenville",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/11/2025",
+    "end_date": "8/16/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "MEIGS (Pomeroy)",
+    "county": "MEIGS",
+    "city": "Pomeroy",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/11/2025",
+    "end_date": "8/17/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "ALLEN (Lima)",
+    "county": "ALLEN",
+    "city": "Lima",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/15/2025",
+    "end_date": "8/23/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "DARKE (Greenville)",
+    "county": "DARKE",
+    "city": "Greenville",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/15/2025",
+    "end_date": "8/23/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "DEFIANCE (Hicksville)",
+    "county": "DEFIANCE",
+    "city": "Hicksville",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/16/2025",
+    "end_date": "8/23/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "LORAIN (Wellington)",
+    "county": "LORAIN",
+    "city": "Wellington",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/17/2025",
+    "end_date": "8/24/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "MONROE (Woodsfield)",
+    "county": "MONROE",
+    "city": "Woodsfield",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/18/2025",
+    "end_date": "8/23/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "SANDUSKY (Fremont)",
+    "county": "SANDUSKY",
+    "city": "Fremont",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/18/2025",
+    "end_date": "8/24/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "PORTAGE (Randolph)",
+    "county": "PORTAGE",
+    "city": "Randolph",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/19/2025",
+    "end_date": "8/24/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "MORROW (Mt. Gilead)",
+    "county": "MORROW",
+    "city": "Mt. Gilead",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/25/2025",
+    "end_date": "8/30/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "NOBLE (Caldwell)",
+    "county": "NOBLE",
+    "city": "Caldwell",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/25/2025",
+    "end_date": "9/1/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "HANCOCK (Findlay)",
+    "county": "HANCOCK",
+    "city": "Findlay",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/26/2025",
+    "end_date": "9/1/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "RICHWOOD (Union Co.)*",
+    "county": "RICHWOOD",
+    "city": "Richwood",
+    "independent": true,
+    "visited": false,
+    "start_date": "8/26/2025",
+    "end_date": "9/1/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "STARK (Canton)",
+    "county": "STARK",
+    "city": "Canton",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/26/2025",
+    "end_date": "9/1/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "VAN WERT (Van Wert)",
+    "county": "VAN WERT",
+    "city": "Van Wert",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/26/2025",
+    "end_date": "9/1/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "MAHONING (Canfield)",
+    "county": "MAHONING",
+    "city": "Canfield",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/27/2025",
+    "end_date": "9/1/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "GEAUGA (Burton)",
+    "county": "GEAUGA",
+    "city": "Burton",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/28/2025",
+    "end_date": "9/1/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "FULTON (Wauseon)",
+    "county": "FULTON",
+    "city": "Wauseon",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/29/2025",
+    "end_date": "9/4/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "WASHINGTON (Marietta)",
+    "county": "WASHINGTON",
+    "city": "Marietta",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/30/2025",
+    "end_date": "9/2/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "HIGHLAND (Hillsboro)",
+    "county": "HIGHLAND",
+    "city": "Hillsboro",
+    "independent": false,
+    "visited": false,
+    "start_date": "8/31/2025",
+    "end_date": "9/6/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "BELMONT (St. Clairsville)",
+    "county": "BELMONT",
+    "city": "St. Clairsville",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/1/2025",
+    "end_date": "9/7/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "HARDIN (Kenton)",
+    "county": "HARDIN",
+    "city": "Kenton",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/2/2025",
+    "end_date": "9/6/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "MORGAN (McConnelsville)",
+    "county": "MORGAN",
+    "city": "McConnelsville",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/2/2025",
+    "end_date": "9/7/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "WAYNE (Wooster)",
+    "county": "WAYNE",
+    "city": "Wooster",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/6/2025",
+    "end_date": "9/11/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "WILLIAMS (Montpelier)",
+    "county": "WILLIAMS",
+    "city": "Montpelier",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/6/2025",
+    "end_date": "9/13/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "GUERNSEY (Old Washington)",
+    "county": "GUERNSEY",
+    "city": "Old Washington",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/8/2025",
+    "end_date": "9/13/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "HOCKING (Logan)",
+    "county": "HOCKING",
+    "city": "Logan",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/8/2025",
+    "end_date": "9/13/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "WYANDOT (Upper Sandusky)",
+    "county": "WYANDOT",
+    "city": "Upper Sandusky",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/8/2025",
+    "end_date": "9/14/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "BELLVILLE (Richland Co.)*",
+    "county": "BELLVILLE",
+    "city": "Bellville",
+    "independent": true,
+    "visited": false,
+    "start_date": "9/10/2025",
+    "end_date": "9/13/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "DELAWARE (Delaware)",
+    "county": "DELAWARE",
+    "city": "Delaware",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/13/2025",
+    "end_date": "9/20/2025",
+    "chip": [
+      255,
+      112,
+      67
+    ]
+  },
+  {
+    "description": "ASHLAND (Ashland)",
+    "county": "ASHLAND",
+    "city": "Ashland",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/14/2025",
+    "end_date": "9/20/2025",
+    "chip": [
+      158,
+      157,
+      36
+    ]
+  },
+  {
+    "description": "TUSCARAWAS (Dover)",
+    "county": "TUSCARAWAS",
+    "city": "Dover",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/15/2025",
+    "end_date": "9/21/2025",
+    "chip": [
+      26,
+      115,
+      232
+    ]
+  },
+  {
+    "description": "ALBANY (Athens Co.)*",
+    "county": "ATHENS",
+    "city": "Albany",
+    "independent": true,
+    "visited": false,
+    "start_date": "9/17/2025",
+    "end_date": "9/21/2025",
+    "chip": [
+      219,
+      68,
+      55
+    ]
+  },
+  {
+    "description": "BROWN (Georgetown)",
+    "county": "BROWN",
+    "city": "Georgetown",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/22/2025",
+    "end_date": "9/27/2025",
+    "chip": [
+      244,
+      180,
+      0
+    ]
+  },
+  {
+    "description": "BARLOW (Washington Co.)*",
+    "county": "WASHINGTON",
+    "city": "Barlow",
+    "independent": true,
+    "visited": false,
+    "start_date": "9/24/2025",
+    "end_date": "9/28/2025",
+    "chip": [
+      15,
+      157,
+      88
+    ]
+  },
+  {
+    "description": "COSHOCTON (Coshocton)",
+    "county": "COSHOCTON",
+    "city": "Coshocton",
+    "independent": false,
+    "visited": false,
+    "start_date": "9/26/2025",
+    "end_date": "10/2/2025",
+    "chip": [
+      171,
+      71,
+      188
+    ]
+  },
+  {
+    "description": "LOUDONVILLE (Ashland Co.)*",
+    "county": "ASHLAND",
+    "city": "Loudonville",
+    "independent": true,
+    "visited": false,
+    "start_date": "9/30/2025",
+    "end_date": "10/4/2025",
+    "chip": [
+      0,
+      172,
+      193
+    ]
+  },
+  {
+    "description": "FAIRFIELD (Lancaster)",
+    "county": "FAIRFIELD",
+    "city": "Lancaster",
+    "independent": false,
+    "visited": false,
+    "start_date": "10/5/2025",
+    "end_date": "10/11/2025",
+    "chip": [
+      255,
+      112,
+      67
     ]
   }
 ]
