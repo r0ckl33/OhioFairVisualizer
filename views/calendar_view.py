@@ -2,6 +2,7 @@ from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QGridLayout, QFrame, QSizePolicy
 )
 from PyQt6.QtCore import Qt, pyqtSignal
+from PyQt6 import QtWidgets, QtCore
 from PyQt6.QtGui import QColor
 
 from utils.clickable_day_label import ClickableDayLabel
@@ -121,12 +122,37 @@ class CalendarView(QWidget):
         # day_label = QLabel(str(date.day))
         day_label = ClickableDayLabel(date)
         day_label.clicked.connect(self.on_day_cell_clicked)
-        day_label.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignHCenter)
+        # day_label.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignHCenter)
+        day_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         if not is_current_month:
             day_label.setStyleSheet("color: #aaa;")
         if date.date() == self.today.date():
-            day_label.setStyleSheet("color: #0f0f0f; background: #a8c7fa;")
-        cell_layout.addWidget(day_label)
+            # Set fixed size to make it a perfect circle
+            size = 20  # Diameter in pixels
+            day_label.setFixedSize(size, size)
+
+            # Style with white circle background - more explicit styling
+            day_label.setStyleSheet("""
+                                background-color: #a8c7fa;
+                                /* border: 1px solid white; */
+                                border-radius: 10px;  /* Half the diameter */
+                                color: black;
+                                font-weight: bold;
+                                padding: 0px;
+                                margin: 0px;
+                            """)
+
+        # Create horizontal layout for the first label to center it
+        h_layout = QtWidgets.QHBoxLayout()
+        h_layout.addStretch(1)
+        h_layout.addWidget(day_label)
+        h_layout.addStretch(1)
+        h_layout.setContentsMargins(0, 0, 0, 0)
+
+        # Add the horizontal layout to the cell's vertical layout
+        cell_layout.addLayout(h_layout)
+        # cell_layout.addWidget(h_layout)
+
         visible = 4
         for i, ev in enumerate(events[:visible]):
             start = parse_date(ev.start_date).date()
